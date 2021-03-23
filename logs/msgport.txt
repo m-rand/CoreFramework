@@ -1,0 +1,13 @@
+
+MessagePortTest
+
+
+---------------------------------
+11-03-2010
+empty romdisc (with modules), no app running
+
+9999 events:    5.335942000 s.ns
+                6.-812489000 s.ns
+                6.-5012000 s.ns
+                5.203798000 s.ns
+                5.370430000 s.ns

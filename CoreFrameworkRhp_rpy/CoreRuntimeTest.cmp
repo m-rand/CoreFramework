@@ -1,0 +1,307 @@
+I-Logix-RPY-Archive version 8.0.9 C 820220
+{ IComponent 
+	- _id = GUID a788d47d-44a9-458b-aaae-1eed49c54cb5;
+	- _myState = 8192;
+	- _name = "CoreRuntimeTest";
+	- Dependencies = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IDependency 
+			- _id = GUID 6ad67513-ee08-404d-a2e3-0eec4a9bbc0b;
+			- _myState = 2048;
+			- _name = "core";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "PredefinedTypes.sbs";
+					- _subsystem = "PredefinedTypes";
+					- _class = "";
+					- _name = "Usage";
+					- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+				}
+			}
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "IComponent";
+				- _filename = "core.cmp";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "core";
+				- _id = GUID 3eca3768-cd6a-4edf-b0ab-822f02d35b8a;
+			}
+		}
+	}
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "../..";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID dfbcb539-3ad9-4435-89f7-57d3057acd54;
+		- _myState = 65536;
+		- _name = "Files";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 2;
+			- value = 
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "CoreFramework.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "CoreFramework";
+				- _id = GUID e7b1eaf5-d5cb-48d9-9453-7a598d92ab58;
+			}
+			{ IHandle 
+				- _m2Class = "IClass";
+				- _filename = "Tests.sbs";
+				- _subsystem = "Tests";
+				- _class = "";
+				- _name = "CoreRuntimeTester";
+				- _id = GUID 368b1d6d-6f82-4e02-aa21-6911da48e5af;
+			}
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 45ba7828-7b2b-431c-b48a-93b6881767dc;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID cdb968b6-e3e3-40f1-b96a-4779f8b852e0;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "C_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Microsoft";
+								- Properties = { IRPYRawContainer 
+									- size = 2;
+									- value = 
+									{ IProperty 
+										- _Name = "BuildCommandSet";
+										- _Value = "Release";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "Debug,Release";
+									}
+									{ IProperty 
+										- _Name = "CPPCompileDebug";
+										- _Value = " /Zi /Od /D \"_DEBUG\" /D \"DEBUG\" /MDd  /Fd\"$(TARGET_NAME)\" ";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Win";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 382ab7b7-c9d4-4d9f-93e1-eae2ca2575db;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "D:\\work\\CoreFrameworkRhp\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 7b3f6d8a-72f5-4721-9743-8201780741cf;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "D:\\work\\CoreFrameworkRhp\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Tests.sbs";
+					- _subsystem = "Tests";
+					- _class = "";
+					- _name = "CoreRuntimeTester";
+					- _id = GUID 368b1d6d-6f82-4e02-aa21-6911da48e5af;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID 683b5b52-e647-4c25-a63f-b43606804366;
+				- _name = "Win";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 7.16.2009::9:38:54;
+			- strongCGTime = 7.16.2009::9:38:54;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+		{ ICodeGenConfigInfo 
+			- _id = GUID 45ba7828-7b2b-431c-b48a-93b6881767dc;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "C_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Environment";
+										- _Value = "uClinuxNIOS2";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "Cygwin,Microsoft,uClinuxNIOS,uClinuxNIOS2";
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "uClinuxNIOS2";
+								- Properties = { IRPYRawContainer 
+									- size = 3;
+									- value = 
+									{ IProperty 
+										- _Name = "BuildCommandSet";
+										- _Value = "Release";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "Debug,Release";
+									}
+									{ IProperty 
+										- _Name = "CPPCompileDebug";
+										- _Value = "-g -D_DEBUG -D DEBUG";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "CPPCompileRelease";
+										- _Value = "-D NDEBUG -D _RELEASE -D UCLINUX  -D __LINUX__ -O2 -finline-functions -funswitch-loops -fgcse-after-reload";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "nios2";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 89c4078e-078f-4698-9131-89d60d8d8cd2;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "D:\\work\\CoreFrameworkRhp\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID f644a1fc-cd57-43aa-8013-29d385df2c08;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "D:\\work\\CoreFrameworkRhp\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Tests.sbs";
+					- _subsystem = "Tests";
+					- _class = "";
+					- _name = "CoreRuntimeTester";
+					- _id = GUID 368b1d6d-6f82-4e02-aa21-6911da48e5af;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID 97290966-13ab-48b6-958b-45c02da4b041;
+				- _name = "nios2";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 7.16.2009::9:17:49;
+			- strongCGTime = 7.16.2009::9:17:49;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+		}
+	}
+	- weakCGTime = 8.14.2009::15:21:29;
+	- strongCGTime = 7.14.2009::13:41:21;
+}
+

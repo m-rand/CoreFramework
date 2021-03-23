@@ -1,0 +1,117 @@
+login: root
+Password:
+
+Sash command shell (version 1.1.1)
+/> chmod 777 data
+/> ./data
+Task RiCOSTimer (PID: 117)
+CoreData <0xe0fda28> :
+{
+        length = 36
+        bytes:
+        <41><68><6f><6a><20><6d><61><6d><69><41><68><6f><6a><20><6d><61>
+         ...
+        <6f><6a><20><6d><61><6d><69><41><68><6f><6a><20><6d><61><6d><69>
+}
+Append :                                         15.100000 us
+ appending 4 bytes 100000 times
+CoreImmutableData creation and destroy 1000 objects: time: 0.070000 (70.000000 us each)
+tst done
+
+
+
+/> ./arr
+Task RiCOSTimer (PID: 121)
+benchmark:      82.980000
+end
+CORE ARRAY
+initial:          10000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          16.000000 us (per item)
+Beginning insertion:    15.000000 us (per item)
+Rand insertion:         1693.000000 us (per item)
+Forwards walk:          3.000000 us (per item)
+Backwards walk:         2.000000 us (per item)
+Rand walk:              3.000000 us (per item)
+Beginning deletion:     5.000000 us (per item)
+Ending deletion:        5.000000 us (per item)
+Rand deletion:          573.000000 us (per item)
+
+initial:          10000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          16.000000 us (per item)
+Beginning insertion:    14.000000 us (per item)
+Rand insertion:         1697.000000 us (per item)
+Forwards walk:          2.000000 us (per item)
+Backwards walk:         3.000000 us (per item)
+Rand walk:              3.000000 us (per item)
+Beginning deletion:     5.000000 us (per item)
+Ending deletion:        6.000000 us (per item)
+Rand deletion:          574.000000 us (per item)
+
+initial:          20000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          16.000000 us (per item)
+Beginning insertion:    13.000000 us (per item)
+Rand insertion:         2818.000000 us (per item)
+Forwards walk:          3.000000 us (per item)
+Backwards walk:         2.500000 us (per item)
+Rand walk:              2.500000 us (per item)
+Beginning deletion:     5.000000 us (per item)
+Ending deletion:        5.000000 us (per item)
+Rand deletion:          1684.000000 us (per item)
+
+initial:          30000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          19.000000 us (per item)
+Beginning insertion:    17.000000 us (per item)
+Rand insertion:         3905.000000 us (per item)
+Forwards walk:          2.333333 us (per item)
+Backwards walk:         2.333333 us (per item)
+Rand walk:              2.666667 us (per item)
+Beginning deletion:     5.000000 us (per item)
+Ending deletion:        6.000000 us (per item)
+Rand deletion:          2796.000000 us (per item)
+
+initial:          40000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          10.000000 us (per item)
+Beginning insertion:    9.000000 us (per item)
+Rand insertion:         5028.000000 us (per item)
+Forwards walk:          2.500000 us (per item)
+Backwards walk:         2.500000 us (per item)
+Rand walk:              2.750000 us (per item)
+Beginning deletion:     5.000000 us (per item)
+Ending deletion:        5.000000 us (per item)
+Rand deletion:          3949.000000 us (per item)
+
+initial:          50000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          22.000000 us (per item)
+Beginning insertion:    20.000000 us (per item)
+Rand insertion:         6204.000000 us (per item)
+Forwards walk:          2.400000 us (per item)
+Backwards walk:         2.400000 us (per item)
+Rand walk:              2.800000 us (per item)
+Beginning deletion:     5.000000 us (per item)
+Ending deletion:        5.000000 us (per item)
+
+
+
+/> ./runtime
+Task RiCOSTimer (PID: 125)
+retain/release with atomic : 5.210000 us
+retain with atomic : 1.211000 us
+/>

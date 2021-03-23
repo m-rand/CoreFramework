@@ -1,0 +1,108 @@
+
+/home/ftp/fDisk> ./data &
+[41]
+/home/ftp/fDisk> Task RiCOSTimer (PID: 43)
+CoreData <0x8232cac> :
+{
+        length = 36
+        bytes:
+        <41><68><6f><6a><20><6d><61><6d><69><41><68><6f><6a><20><6d><61>
+         ...
+        <6f><6a><20><6d><61><6d><69><41><68><6f><6a><20><6d><61><6d><69>
+}
+Append :                                         8.200000 us
+ appending 4 bytes 100000 times
+CoreImmutableData creation and destroy 1000 objects: time: 0.050000 (50.000000 us each)
+tst done
+
+
+/home/ftp/fDisk> ./array &
+[45]
+/home/ftp/fDisk> Task RiCOSTimer (PID: 47)
+benchmark:      28.850000
+end
+CORE ARRAY
+initial:          10000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          4.000000 us (per item)
+Beginning insertion:    6.000000 us (per item)
+Rand insertion:         441.000000 us (per item)
+Forwards walk:          1.000000 us (per item)
+Backwards walk:         1.000000 us (per item)
+Rand walk:              1.000000 us (per item)
+Beginning deletion:     2.000000 us (per item)
+Ending deletion:        3.000000 us (per item)
+Rand deletion:          147.000000 us (per item)
+
+initial:          10000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          5.000000 us (per item)
+Beginning insertion:    6.000000 us (per item)
+Rand insertion:         441.000000 us (per item)
+Forwards walk:          1.000000 us (per item)
+Backwards walk:         0.000000 us (per item)
+Rand walk:              1.000000 us (per item)
+Beginning deletion:     2.000000 us (per item)
+Ending deletion:        3.000000 us (per item)
+Rand deletion:          150.000000 us (per item)
+
+initial:          20000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          5.000000 us (per item)
+Beginning insertion:    6.000000 us (per item)
+Rand insertion:         734.000000 us (per item)
+Forwards walk:          0.500000 us (per item)
+Backwards walk:         0.500000 us (per item)
+Rand walk:              1.500000 us (per item)
+Beginning deletion:     2.000000 us (per item)
+Ending deletion:        3.000000 us (per item)
+Rand deletion:          435.000000 us (per item)
+
+initial:          30000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          6.000000 us (per item)
+Beginning insertion:    7.000000 us (per item)
+Rand insertion:         1025.000000 us (per item)
+Forwards walk:          0.666667 us (per item)
+Backwards walk:         0.666667 us (per item)
+Rand walk:              1.333333 us (per item)
+Beginning deletion:     2.000000 us (per item)
+Ending deletion:        3.000000 us (per item)
+Rand deletion:          725.000000 us (per item)
+
+initial:          40000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          3.000000 us (per item)
+Beginning insertion:    4.000000 us (per item)
+Rand insertion:         1307.000000 us (per item)
+Forwards walk:          0.750000 us (per item)
+Backwards walk:         0.750000 us (per item)
+Rand walk:              1.250000 us (per item)
+Beginning deletion:     2.000000 us (per item)
+Ending deletion:        2.000000 us (per item)
+Rand deletion:          1043.000000 us (per item)
+
+initial:          50000
+inserting:        10000
+deleting:         10000
+---------------------------------------------
+End insertion:          7.000000 us (per item)
+Beginning insertion:    9.000000 us (per item)
+Rand insertion:         1637.000000 us (per item)
+Forwards walk:          0.600000 us (per item)
+Backwards walk:         0.600000 us (per item)
+Rand walk:              1.400000 us (per item)
+Beginning deletion:     2.000000 us (per item)
+Ending deletion:        3.000000 us (per item)
+Rand deletion:          1309.000000 us (per item)
+

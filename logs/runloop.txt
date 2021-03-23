@@ -1,0 +1,86 @@
+
+RunLoopTest
+
+
+--------------------------
+16-02-2010
+
+1) One RunLoopSource, not signaled.
+NiosII:     5494 cycles in 1s.
+Win:        2974419 cycles in 1s.
+
+2) One RunLoopSource, signaled each loop (in its perform callback).
+NiosII:     3831 cycles in 1s.
+Win:        3248862 cycles in 1s.       // more than 1) ???
+
+3) One RunLoopSource (not signaled), one observer observing ENTER and EXIT.
+NiosII:     1367 cycles in 1s.
+Win:        864453 cycles in 1s.
+
+
+--------------------------
+22-02-2010
+
+1)
+NiosII:     5714 cycles in 1s.
+Win:        2976190 cycles in 1s.
+
+2)
+NiosII:     4115 cycles in 1s.
+Win:        3280839 cycles in 1s.
+
+3)
+NiosII:     2865 cycles in 1s.
+Win:        2140410 cycles in 1s.
+
+
+---------------------------
+11-03-2010
+empty romdisc (with modules), no app running
+(after RL modification -- getRunLoop() uses pthread_getspecific/TlsGetValue)
+
+1)
+NiosII:     5917 cycles in 1s.
+Win:        2991325 cycles in 1s.
+
+2)
+NiosII:     4329 cycles in 1s.
+Win:        3248862 cycles in 1s.
+
+3)
+NiosII:     3095 cycles in 1s.
+Win:        2105263 cycles in 1s.
+
+4) One RunLoopSource (not signaled), 8 observers observing ENTER and EXIT.
+NiosII:     824 cycles in 1s.
+Win:        379794 cycles in 1s.
+
+5) One RunLoopSource (signaled), 8 observers observing ENTER and EXIT.
+NiosII:     784 cycles in 1s.
+Win:        387852 cycles in 1s.
+
+
+---------------------------
+07-04-2010
+empty romdisc (with modules), no app running
+(after introducing (fast, bulk) iterators in Core collections)
+
+1)
+
+
+2)
+
+Win:        3233107 cycles in 1s.
+
+3)
+NiosII:     3663 cycles in 1s.
+Win:        1833119 cycles in 1s.
+
+4)
+NiosII:     2304 cycles in 1s.
+Win:        781327 cycles in 1s.
+
+5)
+NiosII:     2016 cycles in 1s.
+Win:        797957 cycles in 1s.
+

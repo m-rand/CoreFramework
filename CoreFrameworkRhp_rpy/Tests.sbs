@@ -1,0 +1,3493 @@
+I-Logix-RPY-Archive version 8.0.9 C 820220
+{ ISubsystem 
+	- _id = GUID 4e629766-127b-44db-b49f-17cc2c091292;
+	- _myState = 8192;
+	- _name = "Tests";
+	- _lastID = 9;
+	- Declaratives = { IRPYRawContainer 
+		- size = 5;
+		- value = 
+		{ ISubsystem 
+			- fileName = "RunLoopTests";
+			- _id = GUID e10845e1-b2b2-44ad-b2bf-815a602cb156;
+		}
+		{ ISubsystem 
+			- fileName = "RiCEventTests";
+			- _id = GUID 8287c444-eb89-4c03-8d8e-d79327a0a2ef;
+		}
+		{ ISubsystem 
+			- fileName = "MessagePort";
+			- _id = GUID 0a34af58-3e9b-43ec-97cf-f3541c5265ef;
+		}
+		{ ISubsystem 
+			- fileName = "NotificationsTest";
+			- _id = GUID 9c67db10-d939-4c61-b72f-c026c4de199e;
+		}
+		{ ISubsystem 
+			- fileName = "TimerTest";
+			- _id = GUID 3efd8a09-48e3-40da-a73b-29ebb444c623;
+		}
+	}
+	- weakCGTime = 4.21.2010::12:36:6;
+	- strongCGTime = 6.23.2009::7:19:33;
+	- _defaultComposite = GUID c281ae37-6b2e-4c28-b404-a78e6516118a;
+	- _eventsBaseID = 13801;
+	- Classes = { IRPYRawContainer 
+		- size = 6;
+		- value = 
+		{ IClass 
+			- _id = GUID c281ae37-6b2e-4c28-b404-a78e6516118a;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 4.21.2010::12:36:6;
+			- strongCGTime = 6.23.2009::7:19:33;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 85499bdf-11e4-4202-844d-73ce52883f32;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "C_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Class";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ImpIncludes";
+										- _Value = "<time.h>";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "CoreDataTester";
+			- Dependencies = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IDependency 
+					- _id = GUID 617c068d-66fd-431c-bf1b-a61e59ef1a78;
+					- _myState = 2048;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Dependency";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "UsageType";
+												- _Value = "Implementation";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Specification,Implementation,Existence";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "CoreBase";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreBase";
+						- _id = GUID a52a8094-7516-4af0-b0e0-de32adbedafa;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 00def030-5ca7-4582-9ca6-0cc5dce339eb;
+					- _myState = 2048;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Dependency";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "UsageType";
+												- _Value = "Implementation";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Specification,Implementation,Existence";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "CoreData";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreData";
+						- _id = GUID b0d9a85f-89b5-40ca-9537-d96bdfae07c5;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 2e031cce-8f3c-41be-90b9-7ecde72f83c5;
+					- _myState = 2048;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Dependency";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "UsageType";
+												- _Value = "Implementation";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Specification,Implementation,Existence";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "CoreString";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreString";
+						- _id = GUID aabde373-a4b2-4b8d-b3fe-9a11f641ebc8;
+					}
+				}
+			}
+			- _lastID = 1;
+			- weakCGTime = 11.16.2009::13:15:50;
+			- strongCGTime = 7.23.2009::6:49:42;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IConstructor 
+					- _id = GUID b1ab068b-8547-4e12-bb84-571b7478256f;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+CoreBOOL _done;
+CoreDataRef data;
+CoreImmutableStringRef string;
+char * str = \"Ahoj mami\";
+char * str2;
+int len = strlen(str);
+int idx;
+FILE * f;
+
+f = fopen(\"D:/logicek.txt\", \"w\");
+
+_done = Core_initialize();
+Core_setLogInfo(stdout, CORE_LOG_ASSERT | CORE_LOG_CRITICAL);
+
+data = CoreData_create(null, 0);
+CoreData_appendBytes(data, str, len);
+CoreData_appendBytes(data, str, len);
+CoreData_appendBytes(data, str, len);
+CoreData_appendBytes(data, str, len);
+
+string = Core_getCopyOfDescription(data);
+str2 = CoreString_getConstASCIICharactersPtr(string);
+len = strlen(str2);
+
+//str2 = CoreData_getBytesPtr(data);
+for (idx = 0; idx < len; idx++)
+{
+    printf(\"%c\", str2[idx]);
+}
+printf(\"\\n\");
+
+len = strlen(str);
+Core_release(data);
+
+_tst(me);
+
+{
+    CoreImmutableDataRef idata2, idata = CoreData_createImmutable(
+        null, str, len
+    ); 
+
+    idata2 = CoreData_createImmutableCopy(null, idata);
+    
+    CoreData_appendBytes(idata, str, len);
+    
+    Core_release(idata);
+    Core_release(idata2);
+}
+
+fclose(f);
+";
+					}
+					- _initializer = "";
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 6883d0f8-b47f-4af7-9fa4-29b9af676162;
+					- _name = "_tst";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+#ifdef UCLINUX
+	#define MAX 1000
+#else
+	#define MAX 1000000
+#endif
+
+clock_t start, end;
+double diff;
+unsigned int i, n = 100000;
+unsigned int len = 0;
+const char * emptyStr = \"\";
+const size_t emptyStr_len = strlen(emptyStr);
+const char * str = \"hello\"; 
+const size_t str_len = strlen(str);
+
+	CoreDataRef tmp = CoreData_create(null, 0);	
+	
+	start = clock();
+	for (i = 0; i < MAX * 100; i++) 
+	{
+		CoreData_appendBytes(tmp, str, sizeof str);
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Append : \\t\\t\\t\\t\\t %f us\\n\", diff/i*1000000);
+	printf(\" appending %u bytes %u times\\n\", sizeof str, i);
+	Core_release(tmp);
+
+{
+	int i;
+	
+	start = clock();
+	for (i = 0; i < MAX; i++)
+	{
+		CoreImmutableDataRef tmp = CoreData_createImmutable(null, emptyStr, emptyStr_len);
+		Core_release(tmp);
+	}
+	end = clock();	
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"CoreImmutableData creation and destroy %u objects: time: %f (%f us each)\\n\", i, diff, diff/i*1000000);
+}
+
+printf(\"tst done\\n\");
+fflush(stdout);
+";
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 70c1b1cd-261b-4971-961b-652abe906160;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "C_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Class";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ImpIncludes";
+										- _Value = "<time.h>";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "CoreArrayTester";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 10832c8e-8ded-4430-b52a-1f140f723119;
+					- _myState = 2048;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Dependency";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "UsageType";
+												- _Value = "Implementation";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Specification,Implementation,Existence";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "CoreBase";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreBase";
+						- _id = GUID a52a8094-7516-4af0-b0e0-de32adbedafa;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 6e030783-67cf-4c81-947c-5d95226f4df6;
+					- _myState = 2048;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Dependency";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "UsageType";
+												- _Value = "Implementation";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Specification,Implementation,Existence";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "CoreArray";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreArray";
+						- _id = GUID 9b18ac23-4227-4871-b7bc-c33cf2e0e3d2;
+					}
+				}
+			}
+			- _lastID = 6;
+			- Declaratives = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IType 
+					- _id = GUID d84c4f3b-bb9f-4876-b9ed-bfbcbbde0b3f;
+					- _myState = 8192;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Type";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Visibility";
+												- _Value = "Private";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Private, Public";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "definitions";
+					- _declaration = "#define NUMBER_OF_LOOPS 6
+
+#ifdef UCLINUX
+const unsigned int kInitialArrayLength[NUMBER_OF_LOOPS] = {10000, 10000, 20000, 30000, 40000, 50000};
+const unsigned numItemsToDelete[NUMBER_OF_LOOPS] = {10000, 10000, 10000, 10000, 10000, 10000};
+const unsigned numItemsToInsert[NUMBER_OF_LOOPS] = {10000, 10000, 10000, 10000, 10000, 10000};   
+#else // Win
+const unsigned int kInitialArrayLength[NUMBER_OF_LOOPS] = {100000, 200000, 300000, 500000, 700000, 1000000};
+const unsigned numItemsToDelete[NUMBER_OF_LOOPS] = {10000, 10000, 10000, 10000, 10000, 10000};
+const unsigned numItemsToInsert[NUMBER_OF_LOOPS] = {10000, 10000, 10000, 10000, 10000, 10000};
+#endif  
+";
+					- _kind = Language;
+				}
+				{ IType 
+					- _id = GUID 1b973272-c037-4dae-bf2b-42405a46e76b;
+					- _myState = 8192;
+					- _name = "kokot";
+					- _declaration = "static int kokot = 0;";
+					- _kind = Language;
+				}
+			}
+			- weakCGTime = 8.6.2009::15:37:34;
+			- strongCGTime = 6.5.2009::15:20:41;
+			- Operations = { IRPYRawContainer 
+				- size = 6;
+				- value = 
+				{ IConstructor 
+					- _id = GUID 7a2e6812-0818-4560-989d-1ee793ef0d75;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+CoreBOOL _done;
+CoreArrayRef array;
+const int intarray[] = { 1, 2, 3, 4, 5, 6, 7 };
+int idx;
+FILE * f;
+clock_t start, end;
+double diff;
+const int MAX = 5000;
+CoreBOOL ok = true;
+
+//f = fopen(\"D:/logicek.txt\", \"w\");
+
+_done = Core_initialize();
+Core_setLogInfo(f, CORE_LOG_ASSERT);
+
+/*array = CoreArray_Create(null, 0, null);
+if (array != null)
+{
+    start = clock();
+    for (idx = 0; idx < MAX; idx++)
+    {
+        char * s;
+        ok = ok && CoreArray_addValue(array, (void *) intarray[idx % 7]);
+        //s = _CoreArray_copyDescription(array);
+        //printf(s);
+        //free(s);
+        if (!ok)
+        {
+            printf(\"[%u] -- error\\n\", idx);
+            getchar();
+        }
+    }
+    end = clock();
+    diff = ((double) (end - start)) / CLOCKS_PER_SEC; 
+    printf(\"benchmark: \\t%f\\ncount = %u, ok = %u\\n\", diff, CoreArray_getCount(array), ok);
+}
+*/
+benchmark_test(me, 100);
+
+printf(\"end\\n\");
+//fclose(f);
+
+
+printf(\"CORE ARRAY \\n\");
+for (idx = 0; idx < NUMBER_OF_LOOPS; idx++)
+{
+	printf(\"initial:\\t%7u\\ninserting:\\t%7u\\ndeleting:\\t%7u\\n\", 
+	kInitialArrayLength[idx], numItemsToInsert[idx], numItemsToDelete[idx]);
+	printf(\"---------------------------------------------\\n\");
+	testArray(me, kInitialArrayLength[idx], numItemsToDelete[idx], numItemsToInsert[idx]); printf(\"\\n\");
+}
+";
+					}
+					- _initializer = "";
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID d62f2e59-77c8-49ac-acb0-93d78452d820;
+					- _name = "benchmark";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+static int lSIZE = 10000;
+int result = 0;
+int idx;
+clock_t start, end;
+double diff;
+static int counter = 0; 
+CoreINT_U32 count;
+
+CoreArrayRef ar1;
+CoreArrayRef ar2;
+CoreArrayRef ar3;
+CoreArrayRef tmp;
+CoreArrayRef tmp2;
+
+counter++;
+
+
+ar1 = CoreArray_create(null, 0, null);
+for (idx = 1; idx < lSIZE + 1; idx++)
+{
+	char * s;
+	CoreArray_addValue(ar1, (void *) idx);
+	/*s = _CoreArray_copyDescription(ar1);
+	fprintf(stdout, s);
+	free(s); */
+}
+
+ar2 = CoreArray_createCopy(null, ar1, 0);
+ar3 = CoreArray_create(null, 0, null);
+
+
+//start = clock();
+while (CoreArray_getCount(ar2))
+{
+	CoreArray_addValue(ar3, CoreArray_removeValueAtIndex(ar2, 0));
+}
+
+count = CoreArray_getCount(ar3);
+while (count > 0)
+{
+	CoreArray_addValue(ar2, CoreArray_removeValueAtIndex(ar3, count - 1));
+	count = CoreArray_getCount(ar3);
+}
+/*end = clock();
+diff = ((double) (end - start)) / CLOCKS_PER_SEC; 
+printf(\"%u. benchmark 01: \\t%f\\n\", counter, diff);*/
+
+	
+tmp = CoreArray_create(0, 0, null);
+while (CoreArray_getCount(ar1))
+{
+	CoreArray_insertValueAtIndex(tmp, 0, CoreArray_removeValueAtIndex(ar1, 0));
+}	
+
+tmp2 = ar1;
+ar1 = tmp;
+
+if ((int) CoreArray_getValueAtIndex(ar1, 0) != lSIZE)
+{
+	//printf(\"first item of ar1 != lSIZE\\n\");
+}
+if (!Core_equal(ar1, ar2))
+{
+	//printf(\"ar1 and ar2 differ\\n\");
+}
+
+result = CoreArray_getCount(ar1);
+Core_release(ar1);
+Core_release(ar2);
+Core_release(ar3);
+Core_release(tmp2);
+
+return result;
+";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 37a9ca8b-e35b-4492-9744-c41614f3ec20;
+					- _name = "benchmark_test";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID 8d9391f1-167e-4a6d-abd2-2326dcda4aae;
+							- _name = "n";
+							- _defaultValue = "";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "int";
+								- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "clock_t start, end;
+double diff;
+int result = 0;
+int i;
+
+start = clock();
+for (i = 0; i < n; i++)
+{
+	result = benchmark(me);
+}
+end = clock();
+diff = ((double) (end - start)) / CLOCKS_PER_SEC; 
+printf(\"benchmark: \\t%f\\n\", diff);
+";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 03acfde5-e629-4c50-9d92-efd89a02b356;
+					- _name = "testArray";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IArgument 
+							- _id = GUID 4e327c33-7a25-4fda-831b-b91230508ef3;
+							- _name = "init";
+							- _defaultValue = "";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "unsigned int";
+								- _id = GUID a52d0ab0-fdc0-11d4-a0a1-000102191a82;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID 45ec54e4-ed32-408f-abdb-998061df7a0f;
+							- _name = "del";
+							- _defaultValue = "";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "unsigned int";
+								- _id = GUID a52d0ab0-fdc0-11d4-a0a1-000102191a82;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID d63f9950-9948-4fc9-8fe0-071c8ea12215;
+							- _name = "ins";
+							- _defaultValue = "";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "unsigned int";
+								- _id = GUID a52d0ab0-fdc0-11d4-a0a1-000102191a82;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+CoreArrayRef array;
+ 
+clock_t start, end;
+double diff;
+
+unsigned* randInsertionLocations;
+unsigned* randOrder;
+unsigned* randDeletionLocations;
+
+unsigned i;
+
+
+srand(0);
+
+
+
+array = createArray(me, init);
+start = clock();
+for (i = 0; i < ins; i++)
+{
+	CoreArray_addValue(array, &kokot);
+}
+end = clock();
+Core_release(array);
+printf(\"End insertion: \\t\\t%f us (per item)\\n\", 1000000. * ((double) (end - start)) / CLOCKS_PER_SEC / ins);
+
+
+/*****************************************************/
+array = createArray(me, init);
+start = clock();
+for (i = 0; i < ins; i++)
+{
+	CoreArray_insertValueAtIndex(array, 0, &kokot);
+}
+end = clock();
+Core_release(array);
+printf(\"Beginning insertion: \\t%f us (per item)\\n\", 1000000. * ((double) (end - start)) / CLOCKS_PER_SEC / ins);
+
+
+/*****************************************************/
+randInsertionLocations = (unsigned *) malloc(ins * sizeof(unsigned));
+for (i=0; i < ins; i++) {
+	randInsertionLocations[i] = rand() % (init + 1 + i);
+}
+array = createArray(me, init);
+start = clock();
+for (i = 0; i < ins; i++)
+{
+	CoreArray_insertValueAtIndex(array, randInsertionLocations[i], &kokot);
+}
+end = clock();
+Core_release(array);
+printf(\"Rand insertion: \\t%f us (per item)\\n\", 1000000. * ((double) (end - start)) / CLOCKS_PER_SEC / ins);
+free(randInsertionLocations);
+
+
+/*****************************************************/
+array = createArray(me, init);
+start = clock();
+{
+	unsigned stop = CoreArray_getCount(array);
+	for (i = 0; i < stop; i++)
+	{
+		empty(CoreArray_getValueAtIndex(array, i));
+	}
+}
+end = clock();
+Core_release(array);
+printf(\"Forwards walk: \\t\\t%f us (per item)\\n\", 1000000. * ((double) (end - start)) / CLOCKS_PER_SEC / init);
+	
+
+/*****************************************************/
+array = createArray(me, init);
+start = clock();
+for (i = CoreArray_getCount(array); i > 0; i--)
+{
+	empty(CoreArray_getValueAtIndex(array, i));
+}
+end = clock();
+Core_release(array);
+printf(\"Backwards walk: \\t%f us (per item)\\n\", 1000000. * ((double) (end - start)) / CLOCKS_PER_SEC / init);
+
+
+/*****************************************************/
+randOrder = (unsigned *) malloc(init * sizeof(unsigned));
+for (i=0; i < init; i++) randOrder[i] = rand() % (init - i);//i;
+array = createArray(me, init);
+start = clock();
+for (i = 0; i < init; i++)
+{
+	empty(CoreArray_getValueAtIndex(array, randOrder[i]));
+}
+end = clock();
+Core_release(array);
+printf(\"Rand walk: \\t\\t%f us (per item)\\n\", 1000000. * ((double) (end - start)) / CLOCKS_PER_SEC / init);
+free(randOrder);
+
+
+/*****************************************************/
+array = createArray(me, init);
+start = clock();
+for (i = 0; i < del; i++)
+{
+	void * res = CoreArray_removeValueAtIndex(array, 0);
+	/*if (res != &kokot)
+	{
+		printf(\"Error in removeFirst() on idx %u\\n\", i);
+	}*/
+}
+end = clock();
+Core_release(array);
+printf(\"Beginning deletion: \\t%f us (per item)\\n\", 1000000. * ((double) (end - start)) / CLOCKS_PER_SEC / del);
+
+array = createArray(me, init);
+start = clock();
+for (i = 0; i < del; i++)
+{
+	void * res = CoreArray_removeValueAtIndex(array, CoreArray_getCount(array) - 1);
+	/*if (res != &kokot)
+	{
+		printf(\"Error in removeLast() on idx %u\\n\", i);
+	} */
+
+}
+end = clock();
+Core_release(array);
+printf(\"Ending deletion: \\t%f us (per item)\\n\", 1000000. * ((double) (end - start)) / CLOCKS_PER_SEC / del);
+
+randDeletionLocations = (unsigned *) malloc(del * sizeof(unsigned));
+for (i=0; i < del; i++) randDeletionLocations[i] = rand() % (init - i);
+array = createArray(me, init);
+start = clock();
+for (i = 0; i < del; i++)
+{
+	void * res = CoreArray_removeValueAtIndex(array, randDeletionLocations[i]);
+	/*if (res != &kokot)
+	{
+		printf(\"Error in removeAt() on idx %u\\n\", i);
+	} */
+
+}
+end = clock();
+Core_release(array);
+printf(\"Rand deletion: \\t\\t%f us (per item)\\n\", 1000000. * ((double) (end - start)) / CLOCKS_PER_SEC / del);
+free(randDeletionLocations);
+";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 6df9f678-2655-41eb-8693-17135f49bf5e;
+					- _name = "createArray";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID 00e15581-ef5b-4ea5-9809-f4a7487abf94;
+							- _name = "count";
+							- _defaultValue = "";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "unsigned int";
+								- _id = GUID a52d0ab0-fdc0-11d4-a0a1-000102191a82;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- myReturnType = { IType 
+						- _id = GUID 9d275709-3df3-4336-82c1-69e9d5f4443f;
+						- _myState = 8192;
+						- _declaration = "CoreArrayRef";
+						- _kind = Language;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+CoreArrayRef array = CoreArray_create(null, 0, null);
+CoreINT_U32 idx;
+double start, end;
+
+start = clock();
+for (idx = 0; idx < count; idx++)
+{
+	CoreArray_addValue(array, &kokot);
+}
+end = clock();
+//printf(\"Uvodni vytvoreni a naplneni polozkami: %f s\\n\", ((double) (end - start)) / CLOCKS_PER_SEC);
+
+return array;
+";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID f3acde81-e534-4e64-8635-81c90fc3cfe7;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Operation";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Me";
+												- _Value = "";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "empty";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID 79d93de7-2f30-421d-b993-02e2cf7ecfef;
+							- _name = "argument_0";
+							- _defaultValue = "";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "void *";
+								- _id = GUID 1ae3facc-89cb-11d2-b813-00104b3e6572;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+return ;
+";
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID b108ca8b-641f-4fe7-b4bf-ca99e0d9627a;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "C_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Class";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ImpIncludes";
+										- _Value = "<time.h>, <oxf/RiCMap.h>";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "CoreDictionaryTester";
+			- Dependencies = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IDependency 
+					- _id = GUID d52f5d53-534f-4c2a-bcf3-3b88597dc496;
+					- _myState = 2048;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Dependency";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "UsageType";
+												- _Value = "Implementation";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Specification,Implementation,Existence";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "CoreDictionary";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreDictionary";
+						- _id = GUID f9b3f247-135d-4849-b2e8-449bbe945419;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 3ee08845-564a-46ce-a6b9-e33d80b1c2a4;
+					- _myState = 2048;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Dependency";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "UsageType";
+												- _Value = "Implementation";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Specification,Implementation,Existence";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "CoreData";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreData";
+						- _id = GUID b0d9a85f-89b5-40ca-9537-d96bdfae07c5;
+					}
+				}
+				{ IDependency 
+					- _id = GUID cb9f962b-0907-4573-ba0f-ae98f255c392;
+					- _myState = 2048;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Dependency";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "UsageType";
+												- _Value = "Implementation";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Specification,Implementation,Existence";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "CoreString";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreString";
+						- _id = GUID aabde373-a4b2-4b8d-b3fe-9a11f641ebc8;
+					}
+				}
+			}
+			- _lastID = 2;
+			- weakCGTime = 8.6.2009::15:41:23;
+			- strongCGTime = 6.23.2009::7:19:33;
+			- Operations = { IRPYRawContainer 
+				- size = 5;
+				- value = 
+				{ IConstructor 
+					- _id = GUID f4ff2db0-f827-47bf-987a-fb2320ea370f;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+CoreDictionaryRef dict;
+int keys[] = { 1, 2, 3, 4, 5, 6, 7 };
+int values[] = { 10, 20, 30, 40, 50, 60, 70 };
+int idx;
+char * s, *s1;
+
+Core_initialize();
+dict = CoreDictionary_create(null, 0, null, null);
+for (idx = 0; idx < 7; idx++)
+{
+    CoreDictionary_addValue(dict, (void *) keys[idx], (void *) values[idx]);
+}
+
+printf(\"count = %d\\n\", CoreDictionary_getCount(dict));
+
+/*s = _CoreDictionary_description(dict);
+printf(\"%s\\n\", s);
+free(s);*/
+
+if (CoreDictionary_removeValue(dict, (void *) keys[3]) == false)
+{
+    printf(\"na picu\\n\");
+}
+if (CoreDictionary_removeValue(dict, (void *) keys[4]) == false)
+{
+    printf(\"na picu\\n\");
+}
+if (CoreDictionary_removeValue(dict, (void *) keys[6]) == false)
+{
+    printf(\"na picu\\n\");
+}
+printf(\"count = %d\\n\", CoreDictionary_getCount(dict));
+
+/*s1 = _CoreDictionary_description(dict);
+printf(\"%s\\n\", s1);
+free(s1);*/
+
+Core_release(dict);
+
+printf(\"done\\n\");
+fflush(stdout);
+
+
+test1(me);
+test2(me);
+test3(me);
+";
+					}
+					- _initializer = "";
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 713240ad-bb0b-487a-a4e8-7d744d278925;
+					- _name = "test1";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+
+#ifdef UCLINUX
+static const unsigned int MAX = 1000;
+#else
+static const unsigned int MAX = 100000;
+#endif
+
+static const unsigned int CAPACITY = 5;
+
+clock_t start, end;
+double diff;
+unsigned int i;
+CoreINT_U32 idx;
+void ** pole = (void **) malloc(CAPACITY * sizeof(void *));
+char * s;
+
+
+CoreDictionaryRef dict = CoreDictionary_create(
+	null,
+	0,
+	null,
+	null
+);
+CoreDictionaryRef dict2 = CoreDictionary_create(
+	null,
+	0,
+	null,
+	null
+);
+
+RiCMap * ricMapa = RiCMap_Create(null);
+
+for (idx = 0; idx < CAPACITY; idx++)
+{
+    ((int *) pole)[idx] = idx;
+}
+
+{
+	CoreINT_U32 p = 0;
+	
+	for (idx = 0; idx < CAPACITY; idx++)
+	{
+		p += (CoreINT_U32) CoreDictionary_addValue(dict, pole[idx], pole[CAPACITY-1 - idx]);
+	}
+	//description = CoreDictionary_description(dict);
+	//printf(\"%s\\n\", CoreConstString_constCharacters(description));
+}
+{
+	CoreINT_U32 p = 0;
+	
+	for (idx = 0; idx < CAPACITY; idx++)
+	{
+		p += (CoreINT_U32) CoreDictionary_addValue(dict2, pole[idx], pole[CAPACITY-1 - idx]);
+	}
+}
+
+{
+	CoreINT_U32 p = 0;
+	
+	for (idx = 0; idx < CAPACITY; idx++)
+	{
+		p += (CoreINT_U32) RiCMap_add(ricMapa, pole[idx], pole[CAPACITY-1 - idx]);
+	}
+}
+
+
+printf(\"***************************************************************\\n\");
+printf(\"1. test\\n\");
+printf(\"keys + values: CoreObject\\n\");
+printf(\"Number of objects: %u\\n\\n\", CAPACITY);
+//s = _CoreDictionary_description(dict);
+//printf(\"%s\\n\", s);
+fflush(stdout);
+
+
+
+
+printf(\"\\nCoreDictionary\\n\");
+
+
+{
+	start = clock();
+	for (i = 0; i < MAX; i++)
+	{
+		CoreDictionaryRef map = CoreDictionary_create(
+			null,
+			0,
+			null,
+			null
+		);
+		
+//        printf(\"%d. %s: 1. ...\\n\", i, __FUNCTION__);
+//        fflush(stdout);
+
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			CoreDictionary_addValue(map, pole[idx], null);
+		} 
+		
+//        printf(\"%d. %s: 1. ok\\n\", i, __FUNCTION__);
+//        fflush(stdout);
+		
+		Core_release(map);
+        
+//        printf(\"%d. %s: 1. ok2\\n\", i, __FUNCTION__);
+//        fflush(stdout);
+	}
+	
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"create + fill + Destroy: \\t %f us each\\n\", diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = res && CoreDictionary_containsKey(dict, pole[idx]);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains key (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = res && CoreDictionary_containsValue(dict, pole[idx]);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains value (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+
+
+/************** CoreDictionary ***************/ 
+
+printf(\"\\nCoreDictionary\\n\");
+
+{
+	start = clock();
+	for (i = 0; i < MAX; i++)
+	{
+		CoreDictionaryRef map = CoreDictionary_create(
+			null,
+			0,
+			null,
+			null
+		);
+		
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			CoreDictionary_addValue(map, pole[idx], null);
+		}
+		
+		Core_release(map);
+	}
+	
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"create + fill + Destroy: \\t %f us each\\n\", diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = res && CoreDictionary_containsKey(dict2, pole[idx]);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains key (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = res && CoreDictionary_containsValue(dict2, pole[idx]);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains value (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+
+
+/*********************** RiCMap ************************/
+
+
+printf(\"\\nRiCMap\\n\");
+{
+	start = clock();
+	for (i = 0; i < MAX; i++)
+	{
+		RiCMap * map = RiCMap_Create(null);
+		
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			RiCMap_add(map, pole[idx], pole[CAPACITY-1 - idx]);
+		}
+		
+		RiCMap_Destroy(map);
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"create + fill + Destroy: \\t %f us each\\n\", diff / (i * idx) * 1000000);
+}	
+{
+	RiCBoolean res = TRUE;
+	gen_ptr value;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = res && RiCMap_lookUp(ricMapa, pole[idx], &value);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains key (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+{
+	RiCBoolean res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = res && RiCMap_find(ricMapa, pole[idx]);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains value (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+
+Core_release(dict);
+Core_release(dict2);
+RiCMap_Destroy(ricMapa);
+";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID d1a0c907-b06a-43e6-ad80-2dff1796e73b;
+					- _name = "test2";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+
+#ifdef UCLINUX
+#define CAPACITY 130
+static const unsigned int MAX = 10000 / CAPACITY;
+#else
+#define CAPACITY 13000
+static const unsigned int MAX = 100000 / CAPACITY;
+#endif
+
+clock_t start, end;
+double diff;
+unsigned int i;
+CoreINT_U32 idx;
+CoreDataRef keyArray[CAPACITY];
+CoreDataRef valueArray[CAPACITY];
+char * s;
+
+
+CoreDictionaryRef dict = CoreDictionary_create(
+	null,
+	0,
+	&CoreDictionaryKeyCoreCallbacks,
+	&CoreDictionaryValueCoreCallbacks
+);
+CoreDictionaryRef dict2 = CoreDictionary_create(
+	null,
+	0,
+	&CoreDictionaryKeyCoreCallbacks,
+	&CoreDictionaryValueCoreCallbacks
+);
+
+RiCMap * ricMapa = RiCMap_Create(cmp);
+
+printf(\"halo\\n\");
+
+for (i = 0; i < CAPACITY; i++)
+{
+    CoreDataRef str;
+    char s[100] = { 0 };
+    sprintf(s, \"String number %u\", i);
+    str = CoreData_create(null, 0);
+    CoreData_appendBytes(str, s, strlen(s));
+    keyArray[i] = str;
+    valueArray[i] = str;
+}
+
+
+printf(\"halo2 dict = %p\\n\", dict);
+{
+	CoreINT_U32 p = 0;
+	
+	for (idx = 0; idx < CAPACITY; idx++)
+	{
+		p += (CoreINT_U32) CoreDictionary_addValue(dict, keyArray[idx], valueArray[CAPACITY-1 - idx]);
+	}
+	//description = CoreDictionary_description(dict);
+	//printf(\"%s\\n\", CoreConstString_constCharacters(description));
+}
+{
+	CoreINT_U32 p = 0;
+	
+	for (idx = 0; idx < CAPACITY; idx++)
+	{
+		p += (CoreINT_U32) CoreDictionary_addValue(dict2, keyArray[idx], valueArray[CAPACITY-1 - idx]);
+	}
+}
+{
+	CoreINT_U32 p = 0;
+	
+	for (idx = 0; idx < CAPACITY; idx++)
+	{
+		p += (CoreINT_U32) RiCMap_add(ricMapa, keyArray[idx], valueArray[CAPACITY-1 - idx]);
+	}
+}
+
+
+printf(\"***************************************************************\\n\");
+printf(\"1. test\\n\");
+printf(\"keys + values: CoreData\\n\");
+printf(\"Number of objects: %u\\n\\n\", CAPACITY);
+//s = _CoreDictionary_description(dict);
+//printf(\"%s\\n\", s);
+fflush(stdout);
+
+
+
+
+printf(\"\\nCoreDictionary\\n\");
+
+
+{
+	start = clock();
+	for (i = 0; i < MAX; i++)
+	{
+		CoreDictionaryRef map = CoreDictionary_create(
+        	null,
+        	0,
+        	&CoreDictionaryKeyCoreCallbacks,
+        	&CoreDictionaryValueCoreCallbacks
+		);
+		
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			CoreDictionary_addValue(map, keyArray[idx], valueArray[idx]);
+		}
+
+//        printf(\"%s: CD ok\\n\", __FUNCTION__);
+//        fflush(stdout);
+		
+		Core_release(map);
+	}
+	
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"create + fill + Destroy: \\t %f us each\\n\", diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = CoreDictionary_containsKey(dict, keyArray[idx]);
+			//res = res && CoreDictionary_containsKey(dict, keyArray[idx]);
+			if (res == false)
+			{
+			    printf(\"[%u] key %p not found\\n\", idx, keyArray[idx]);
+			    getchar();
+			}
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains key (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = res && CoreDictionary_containsValue(dict, valueArray[idx]);
+		}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains value (res = %d): \\t %f us each\\n\", res, diff / (idx) * 1000000);
+}
+
+
+/************** CoreDictionary ***************/ 
+
+printf(\"\\nCoreDictionary\\n\");
+
+{
+	start = clock();
+	for (i = 0; i < MAX; i++)
+	{
+		CoreDictionaryRef map = CoreDictionary_create(
+        	null,
+        	0,
+        	&CoreDictionaryKeyCoreCallbacks,
+        	&CoreDictionaryValueCoreCallbacks
+		);
+		
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			CoreDictionary_addValue(map, keyArray[idx], valueArray[idx]);
+		}
+		
+		Core_release(map);
+	}
+	
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"create + fill + Destroy: \\t %f us each\\n\", diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = res && CoreDictionary_containsKey(dict2, keyArray[idx]);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains key (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = res && CoreDictionary_containsValue(dict2, valueArray[idx]);
+		}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains value (res = %d): \\t %f us each\\n\", res, diff / (idx) * 1000000);
+}
+
+
+/*********************** RiCMap ************************/
+
+
+printf(\"\\nRiCMap\\n\");
+{
+	start = clock();
+	for (i = 0; i < MAX; i++)
+	{
+		RiCMap * map = RiCMap_Create(cmp);
+		
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			RiCMap_add(map, keyArray[idx], valueArray[CAPACITY-1 - idx]);
+		}
+		
+		RiCMap_Destroy(map);
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"create + fill + Destroy: \\t %f us each\\n\", diff / (i * idx) * 1000000);
+}	
+{
+	RiCBoolean res = TRUE;
+	gen_ptr value;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = res && RiCMap_lookUp(ricMapa, keyArray[idx], &value);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains key (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+{
+	RiCBoolean res = TRUE;
+	
+	start = clock();
+		for (idx = 0; idx < CAPACITY; idx++)
+		{
+			res = res && RiCMap_find(ricMapa, valueArray[idx]);
+		}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains value (res = %d): \\t %f us each\\n\", res, diff / (idx) * 1000000);
+}
+
+";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID fe911577-b68a-4dcf-92f7-bac5896b00a9;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Operation";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Me";
+												- _Value = "";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "cmp";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IArgument 
+							- _id = GUID ea2e3204-b7cd-49f8-941c-8f892d20fc93;
+							- _name = "a";
+							- _defaultValue = "";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "void *";
+								- _id = GUID 1ae3facc-89cb-11d2-b813-00104b3e6572;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID 9acdecd4-23c0-4e76-839d-e8b7228221bb;
+							- _name = "b";
+							- _defaultValue = "";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "void *";
+								- _id = GUID 1ae3facc-89cb-11d2-b813-00104b3e6572;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "int";
+						- _id = GUID 1ae3fac5-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+unsigned int lena = CoreData_getLength((CoreDataRef) a);
+unsigned int lenb = CoreData_getLength((CoreDataRef) b);
+char * _a = CoreData_getBytesPtr((CoreDataRef) a);
+char * _b = CoreData_getBytesPtr((CoreDataRef) b);
+
+
+return memcmp(_a, _b, min(lena, lenb));
+";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 3139cc98-b01f-40a9-8234-80a6116008d9;
+					- _name = "test3";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+
+#ifdef UCLINUX
+#define MAX 10
+#else
+#define MAX 100
+#endif
+
+#ifdef UCLINUX
+#define CAP 5000
+#else
+#define CAP 50000
+#endif
+
+clock_t start, end;
+double diff;
+unsigned int i;
+unsigned int idx;
+void ** pole = (void **) malloc(CAP * sizeof(void *));
+char * s;
+
+
+CoreDictionaryRef dict = CoreDictionary_create(
+	null,
+	0,
+	null,
+	null
+);
+CoreDictionaryRef dict2 = CoreDictionary_create(
+	null,
+	0,
+	null,
+	null
+);
+
+RiCMap * ricMapa = RiCMap_Create(null);
+
+
+for (idx = 0; idx < CAPACITY; idx++)
+{
+    ((int *) pole)[idx] = idx;
+}
+
+{
+	CoreINT_U32 p = 0;
+	
+	for (idx = 0; idx < CAP; idx++)
+	{
+		p += (CoreINT_U32) CoreDictionary_addValue(dict, pole[idx], pole[CAP-1 - idx]);
+	}
+	//description = CoreDictionary_description(dict);
+	//printf(\"%s\\n\", CoreConstString_constCharacters(description));
+}
+{
+	CoreINT_U32 p = 0;
+	
+	for (idx = 0; idx < CAP; idx++)
+	{
+		p += (CoreINT_U32) CoreDictionary_addValue(dict2, pole[idx], pole[CAP-1 - idx]);
+	}
+}
+
+{
+	CoreINT_U32 p = 0;
+	
+	for (idx = 0; idx < CAP; idx++)
+	{
+		p += (CoreINT_U32) RiCMap_add(ricMapa, pole[idx], pole[CAP-1 - idx]);
+	}
+}
+
+
+printf(\"***************************************************************\\n\");
+printf(\"1. test\\n\");
+printf(\"keys + values: CoreObject\\n\");
+printf(\"Number of objects: %u\\n\\n\", CAP);
+//s = _CoreDictionary_description(dict);
+//printf(\"%s\\n\", s);
+fflush(stdout);
+
+
+
+
+printf(\"\\nCoreDictionary\\n\");
+
+
+{
+	start = clock();
+	for (i = 0; i < MAX; i++)
+	{
+		CoreDictionaryRef map = CoreDictionary_create(
+			null,
+			0,
+			null,
+			null
+		);
+		
+//        printf(\"%d. %s: 1. ...\\n\", i, __FUNCTION__);
+//        fflush(stdout);
+
+		for (idx = 0; idx < CAP; idx++)
+		{
+			CoreDictionary_addValue(map, pole[idx], null);
+		} 
+		
+//        printf(\"%d. %s: 1. ok\\n\", i, __FUNCTION__);
+//        fflush(stdout);
+		
+		Core_release(map);
+        
+//        printf(\"%d. %s: 1. ok2\\n\", i, __FUNCTION__);
+//        fflush(stdout);
+	}
+	
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"create + fill + Destroy: \\t %f us each\\n\", diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAP; idx++)
+		{
+			res = res && CoreDictionary_containsKey(dict, pole[idx]);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains key (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAP; idx++)
+		{
+			res = res && CoreDictionary_containsValue(dict, pole[idx]);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains value (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+
+
+/************** CoreDictionary ***************/ 
+
+printf(\"\\nCoreDictionary\\n\");
+
+{
+	start = clock();
+	for (i = 0; i < MAX; i++)
+	{
+		CoreDictionaryRef map = CoreDictionary_create(
+			null,
+			0,
+			null,
+			null
+		);
+		
+		for (idx = 0; idx < CAP; idx++)
+		{
+			CoreDictionary_addValue(map, pole[idx], null);
+		}
+		
+		Core_release(map);
+	}
+	
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"create + fill + Destroy: \\t %f us each\\n\", diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAP; idx++)
+		{
+			res = res && CoreDictionary_containsKey(dict2, pole[idx]);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains key (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+{
+	CoreBOOL res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAP; idx++)
+		{
+			res = res && CoreDictionary_containsValue(dict2, pole[idx]);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains value (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+
+
+/*********************** RiCMap ************************/
+
+
+printf(\"\\nRiCMap\\n\");
+{
+	start = clock();
+	for (i = 0; i < MAX; i++)
+	{
+		RiCMap * map = RiCMap_Create(null);
+		
+		for (idx = 0; idx < CAP; idx++)
+		{
+			RiCMap_add(map, pole[idx], pole[CAP-1 - idx]);
+		}
+		
+		RiCMap_Destroy(map);
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"create + fill + Destroy: \\t %f us each\\n\", diff / (i * idx) * 1000000);
+}	
+{
+	RiCBoolean res = TRUE;
+	gen_ptr value;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAP; idx++)
+		{
+			res = res && RiCMap_lookUp(ricMapa, pole[idx], &value);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains key (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+{
+	RiCBoolean res = TRUE;
+	
+	start = clock();
+	for (i = 0; i < 10 * MAX; i++)
+	{
+		for (idx = 0; idx < CAP; idx++)
+		{
+			res = res && RiCMap_find(ricMapa, pole[idx]);
+		}
+	}
+	end = clock();
+	diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+	printf(\"Contains value (res = %d): \\t %f us each\\n\", res, diff / (i * idx) * 1000000);
+}
+
+";
+					}
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 368b1d6d-6f82-4e02-aa21-6911da48e5af;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "C_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Class";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ImpIncludes";
+										- _Value = "<time.h>";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "CoreRuntimeTester";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 2c389413-a6f1-4cc5-ae06-3e3bc337fc46;
+					- _myState = 2048;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Dependency";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "UsageType";
+												- _Value = "Implementation";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Specification,Implementation,Existence";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "CoreBase";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreBase";
+						- _id = GUID a52a8094-7516-4af0-b0e0-de32adbedafa;
+					}
+				}
+				{ IDependency 
+					- _id = GUID e6d59d62-e3d6-4d4c-b7ea-5af264442a71;
+					- _myState = 2048;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Dependency";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "UsageType";
+												- _Value = "Implementation";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Specification,Implementation,Existence";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "CoreData";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreData";
+						- _id = GUID b0d9a85f-89b5-40ca-9537-d96bdfae07c5;
+					}
+				}
+			}
+			- weakCGTime = 8.13.2009::12:3:16;
+			- strongCGTime = 7.17.2009::12:40:55;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IConstructor 
+					- _id = GUID c8b9cdc6-5f82-423c-8617-50180a47b10c;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+#ifdef __WIN32__
+#define COUNT 50000000
+#else
+#define COUNT 1000000
+#endif
+
+CoreBOOL _done;
+CoreDataRef data;
+int idx;
+clock_t start, end;
+double diff;
+
+
+_done = Core_initialize();
+
+data = CoreData_create(null, 0);
+
+start = clock();
+for (idx = 0; idx < COUNT; idx++)
+{
+    Core_retain(data);
+    Core_release(data);
+}
+end = clock();	
+diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+printf(\"retain/release with atomic : %f us\\n\", diff/COUNT*1000000);
+
+{
+    int i;
+    CoreDataRef data2;
+    
+    start = clock();
+    for (i = 0; i < COUNT/1000; i++)
+    {
+        data2 = CoreData_create(null, 0);
+    
+        for (idx = 0; idx < 10000; idx++)
+        {
+            Core_retain(data2);
+        }
+    } 
+    
+    end = clock();	
+    diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+    printf(\"retain with atomic : %f us\\n\", diff/(i*idx)*1000000);
+}
+";
+					}
+					- _initializer = "";
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID ae653a0e-b4ee-4478-bd04-63b6eeac4272;
+					- _myState = 10240;
+					- _name = "itsCoreString";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreString";
+						- _id = GUID aabde373-a4b2-4b8d-b3fe-9a11f641ebc8;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 45dab04d-5ba5-4454-9f2c-df3eda90e58f;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 2;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Class";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Concurrency";
+										- _Value = "active";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "sequential,active";
+									}
+								}
+							}
+						}
+					}
+					{ IPropertySubject 
+						- _Name = "C_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Class";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ImpIncludes";
+										- _Value = "<time.h>";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "CoreRunLoopTester";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID ccf06335-77bf-4871-b1b5-e1c8117fd6c9;
+					- _myState = 2048;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Dependency";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "UsageType";
+												- _Value = "Specification";
+												- _Type = Enum;
+												- _ExtraTypeInfo = "Specification,Implementation,Existence";
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "CoreRunLoop";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "CoreFramework.sbs";
+						- _subsystem = "CoreFramework";
+						- _class = "";
+						- _name = "CoreRunLoop";
+						- _id = GUID f98c3098-54e7-4043-adda-190c96ef84ac;
+					}
+				}
+			}
+			- _lastID = 5;
+			- weakCGTime = 4.21.2010::12:36:6;
+			- strongCGTime = 9.17.2009::9:36:34;
+			- Operations = { IRPYRawContainer 
+				- size = 5;
+				- value = 
+				{ IConstructor 
+					- _id = GUID ecb42ebb-b486-4f0e-b362-b431690b52ce;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+Core_initialize();
+Core_setLogInfo(stdout, 0/*CORE_LOG_TRACE*/);
+RiCGEN(me, evRun());
+";
+					}
+					- _initializer = "";
+				}
+				{ IReception 
+					- _id = GUID bb53fddf-62ec-41c8-84db-1319f827c8c7;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _event = { IHandle 
+						- _m2Class = "IEvent";
+						- _id = GUID 27f9fa60-67b3-48f2-89e3-89b131023fa5;
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID dbccec1e-cb5f-474f-9dee-4bc77523c2d1;
+					- _name = "run";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+#define RLO_COUNT 1
+CoreRunLoopRef rl = CoreRunLoop_create();
+CoreRunLoopObserverUserInfo rloInfo;
+CoreRunLoopObserverRef rlo[RLO_COUNT];
+CoreRunLoopSourceUserInfo srcInfo = { 0 };
+CoreRunLoopSourceDelegate srcDelegate = { 0 };
+CoreINT_S32 idx;
+clock_t start, end;
+double diff;
+#ifdef __LINUX__
+#define COUNT 10000
+#else
+#define COUNT 10000000
+#endif
+
+for (idx = 0; idx < RLO_COUNT; idx++)
+{
+    rlo[idx] = CoreRunLoopObserver_create(
+        null, 
+        CORE_RUN_LOOP_ENTRY | CORE_RUN_LOOP_EXIT,
+        runLoopObserverCallback,
+        null
+    );
+}
+
+srcDelegate.perform = performSrc;
+srcInfo.info = me;
+me->src = CoreRunLoopSource_create(
+    null,
+    &srcDelegate,
+    &srcInfo
+);
+    
+
+CoreRunLoop_addSource(rl, me->src, CORE_RUN_LOOP_MODE_DEFAULT);
+CoreRunLoopSource_signal(me->src);
+for (idx = 0; idx < RLO_COUNT; idx++)
+{
+    CoreRunLoop_addObserver(rl, rlo[idx], CORE_RUN_LOOP_MODE_DEFAULT);
+}
+
+//CoreRunLoop_run();
+
+
+start = clock();
+for (idx = 0; idx < COUNT; idx++)
+{
+/*    if (count % 1000 == 0)
+    {
+        printf(\"rl count = %d\\n\", count);
+    }  */
+    (void) CoreRunLoop_runInMode(CORE_RUN_LOOP_MODE_DEFAULT, 0, true);
+};
+end = clock();
+diff = ((double) (end - start)) / CLOCKS_PER_SEC;
+printf(\"RunLoop over %u: %f sec\\n\\n\", COUNT, diff);
+printf(\"Cycles in 1 sec: %u\\n\", (unsigned long) (COUNT / diff));
+fflush(stdout);
+";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID 8964b2b3-b727-4946-9d8a-351383116237;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Operation";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Me";
+												- _Value = "";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "runLoopObserverCallback";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 3;
+						- value = 
+						{ IArgument 
+							- _id = GUID 38e7f785-76ab-4954-8587-89330071d79e;
+							- _name = "rlo";
+							- _defaultValue = "";
+							- myTypeOf = { IType 
+								- _id = GUID 1162c39e-36e9-40b4-b494-3d769e2170ec;
+								- _myState = 8192;
+								- _declaration = "CoreRunLoopObserverRef";
+								- _kind = Language;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID 68c0730a-ba12-4154-9424-828eac6ffb02;
+							- _name = "activity";
+							- _defaultValue = "";
+							- myTypeOf = { IType 
+								- _id = GUID 96cddf1d-a1ee-4793-9255-036a03b56a8b;
+								- _myState = 8192;
+								- _declaration = "CoreRunLoopActivity";
+								- _kind = Language;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+						{ IArgument 
+							- _id = GUID 0b9d4c28-f87f-40a9-a73e-ad78cc727d2b;
+							- _name = "userInfo";
+							- _defaultValue = "";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "void *";
+								- _id = GUID 1ae3facc-89cb-11d2-b813-00104b3e6572;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+static int count = 0;
+count++;
+/*if (count % 1000 == 0)
+{
+    printf(\"Observer %u. loop: activity %u\\n\", count, activity);
+    fflush(stdout);
+}*/
+";
+					}
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID de80d5e3-bf00-4c56-b68d-53613fc44bef;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "C_CG";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Operation";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Me";
+												- _Value = "";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "performSrc";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID 8235c09d-c82c-4e92-b318-19f9d18ee3d3;
+							- _name = "info";
+							- _defaultValue = "";
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC.sbs";
+								- _subsystem = "PredefinedTypesC";
+								- _class = "";
+								- _name = "void *";
+								- _id = GUID 1ae3facc-89cb-11d2-b813-00104b3e6572;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC.sbs";
+						- _subsystem = "PredefinedTypesC";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPrivate;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "
+CoreRunLoopTester * _me = (CoreRunLoopTester *) info;
+CoreRunLoopSource_signal(_me->src);
+
+/*printf(\"performSrc\\n\");
+fflush(stdout);*/
+";
+					}
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAttribute 
+					- _id = GUID dbe193f8-5eee-48c5-9fb4-30fb89916da0;
+					- _name = "src";
+					- _defaultValue = "";
+					- myTypeOf = { IType 
+						- _id = GUID 48464f39-4323-4931-9928-5563564a3e69;
+						- _myState = 8192;
+						- _declaration = "CoreRunLoopSourceRef";
+						- _kind = Language;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- _multiplicity = "";
+			- StateCharts = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IStateChart 
+					- _id = GUID cadbe8f6-01c4-4081-893d-f5725a82db6e;
+					- _myState = 10240;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 2;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "DanglingTransition";
+										- Properties = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IProperty 
+												- _Name = "Line.LineColor";
+												- _Value = "0,0,0";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Line.LineWidth";
+												- _Value = "2";
+												- _Type = Int;
+											}
+										}
+									}
+									{ IPropertyMetaclass 
+										- _Name = "State";
+										- Properties = { IRPYRawContainer 
+											- size = 8;
+											- value = 
+											{ IProperty 
+												- _Name = "DefaultSize";
+												- _Value = "0,0,96,60";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Fill.FillColor";
+												- _Value = "255,255,255";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Font.Font";
+												- _Value = "Arial";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Font.FontColor";
+												- _Value = "0,0,0";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "10";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Line.LineColor";
+												- _Value = "0,112,0";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Line.LineStyle";
+												- _Value = "0";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Line.LineWidth";
+												- _Value = "1";
+												- _Type = Int;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "statechart_0";
+					- _lastID = 2;
+					- _lastModifiedTime = "9.14.2009::8:57:20";
+					- _graphicChart = { CGIStateChart 
+						- _id = GUID 989beaa2-e440-455f-9d59-532a3634f5e0;
+						- m_type = 0;
+						- m_pModelObject = { IHandle 
+							- _m2Class = "IStateChart";
+							- _id = GUID cadbe8f6-01c4-4081-893d-f5725a82db6e;
+						}
+						- m_pParent = ;
+						- m_name = { CGIText 
+							- m_str = "";
+							- m_style = "Arial" 10 0 0 0 1 ;
+							- m_color = { IColor 
+								- m_fgColor = 0;
+								- m_bgColor = 0;
+								- m_bgFlag = 0;
+							}
+							- m_position = 1 0 0  ;
+							- m_nIdent = 0;
+							- m_bImplicitSetRectPoints = 0;
+							- m_nOrientationCtrlPt = 8;
+						}
+						- m_drawBehavior = 4096;
+						- m_bIsPreferencesInitialized = 1;
+						- elementList = 4;
+						{ CGIState 
+							- _id = GUID 24ce6e06-e83a-435f-aa4f-f245fb9f45aa;
+							- m_type = 5;
+							- m_pModelObject = { IHandle 
+								- _m2Class = "IState";
+								- _id = GUID ab4c8de7-c90a-4b88-9b15-21322ca55ef3;
+							}
+							- m_pParent = ;
+							- m_name = { CGIText 
+								- m_str = "ROOT";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 5;
+							}
+							- m_drawBehavior = 0;
+							- m_bIsPreferencesInitialized = 0;
+							- m_AdditionalLabel = { CGIText 
+								- m_str = "";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 1;
+							}
+							- m_polygon = 4 0 0  0 0  0 0  0 0  ;
+							- m_nNameFormat = 0;
+							- m_nIsNameFormat = 0;
+							- nAndLineCount = 0;
+							- m_pInheritsFrom = { IHandle 
+								- _m2Class = "";
+							}
+							- m_nInheritanceMask = 0;
+							- m_pDefaultComponentRelation = ;
+						}
+						{ CGIState 
+							- _id = GUID f5957818-e438-4efb-9893-563e404ff00f;
+							- m_type = 8;
+							- m_pModelObject = { IHandle 
+								- _m2Class = "IState";
+								- _id = GUID ea006980-05c4-4529-9e8a-7d016c9f5574;
+							}
+							- m_pParent = GUID 24ce6e06-e83a-435f-aa4f-f245fb9f45aa;
+							- m_name = { CGIText 
+								- m_str = "state_0";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 5;
+							}
+							- m_drawBehavior = 4104;
+							- m_transform = 0.0666058 0 0 0.0641509 204 120 ;
+							- m_bIsPreferencesInitialized = 1;
+							- m_AdditionalLabel = { CGIText 
+								- m_str = "";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 1;
+							}
+							- m_polygon = 4 0 0  0 1060  1096 1060  1096 0  ;
+							- m_nNameFormat = 0;
+							- m_nIsNameFormat = 0;
+							- nAndLineCount = 0;
+							- m_pInheritsFrom = { IHandle 
+								- _m2Class = "";
+							}
+							- m_nInheritanceMask = 0;
+							- m_pDefaultComponentRelation = ;
+						}
+						{ CGITrans 
+							- _id = GUID 66f9a217-c7b9-4a62-b1dc-ed729386eb7b;
+							- _properties = { IPropertyContainer 
+								- Subjects = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertySubject 
+										- _Name = "General";
+										- Metaclasses = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Graphics";
+												- Properties = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IProperty 
+														- _Name = "ShowLabels";
+														- _Value = "False";
+														- _Type = Bool;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							- m_type = 29;
+							- m_pModelObject = { IHandle 
+								- _m2Class = "ITransition";
+								- _id = GUID 4834354b-5629-4e0f-b85c-33e040366810;
+							}
+							- m_pParent = ;
+							- m_name = { CGIText 
+								- m_str = "";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 8;
+							}
+							- m_drawBehavior = 0;
+							- m_bIsPreferencesInitialized = 1;
+							- m_pSource = GUID 24ce6e06-e83a-435f-aa4f-f245fb9f45aa;
+							- m_sourceType = 'F';
+							- m_pTarget = GUID f5957818-e438-4efb-9893-563e404ff00f;
+							- m_targetType = 'T';
+							- m_direction = ' ';
+							- m_rpn = { CGIText 
+								- m_str = "";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 0;
+							}
+							- m_anglePoint1 = 0 0 ;
+							- m_anglePoint2 = 0 0 ;
+							- m_line_style = 1;
+							- m_SourcePort = 179 94 ;
+							- m_TargetPort = 195 109 ;
+							- m_pInheritsFrom = { IHandle 
+								- _m2Class = "";
+							}
+							- m_nInheritanceMask = 0;
+							- m_bShowName = 1;
+						}
+						{ CGITrans 
+							- _id = GUID cbc085eb-36ed-4294-aeff-89e4d9189afd;
+							- _properties = { IPropertyContainer 
+								- Subjects = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertySubject 
+										- _Name = "General";
+										- Metaclasses = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Graphics";
+												- Properties = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IProperty 
+														- _Name = "ShowLabels";
+														- _Value = "False";
+														- _Type = Bool;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							- m_type = 28;
+							- m_pModelObject = { IHandle 
+								- _m2Class = "ITransition";
+								- _id = GUID b2f0ecbe-2ea7-43e4-a698-e273f9bd4f0a;
+							}
+							- m_pParent = ;
+							- m_name = { CGIText 
+								- m_str = "";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 8;
+							}
+							- m_drawBehavior = 0;
+							- m_bIsPreferencesInitialized = 1;
+							- m_pSource = GUID f5957818-e438-4efb-9893-563e404ff00f;
+							- m_sourceType = 'F';
+							- m_pTarget = GUID f5957818-e438-4efb-9893-563e404ff00f;
+							- m_targetType = 'T';
+							- m_direction = ' ';
+							- m_rpn = { CGIText 
+								- m_str = "evRun/run(me);";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 4 -49 -8  62 -8  62 10  -49 10  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_transform = 1 0 0 1 390 179 ;
+								- m_nHorizontalSpacing = -11;
+								- m_nVerticalSpacing = -33;
+								- m_nOrientationCtrlPt = 0;
+							}
+							- m_arrow = 3 337 152  337 207  247 207  ;
+							- m_anglePoint1 = 0 0 ;
+							- m_anglePoint2 = 0 0 ;
+							- m_line_style = 2;
+							- m_SourcePort = 1096 499 ;
+							- m_TargetPort = 646 1044 ;
+							- m_pInheritsFrom = { IHandle 
+								- _m2Class = "";
+							}
+							- m_nInheritanceMask = 0;
+							- m_bShowName = 1;
+						}
+						
+						- m_access = 'Z';
+						- m_modified = 'N';
+						- m_fileVersion = "";
+						- m_nModifyDate = 0;
+						- m_nCreateDate = 0;
+						- m_creator = "";
+						- m_bScaleWithZoom = 1;
+						- m_arrowStyle = 'S';
+						- m_pRoot = GUID 24ce6e06-e83a-435f-aa4f-f245fb9f45aa;
+						- m_currentLeftTop = 0 0 ;
+						- m_currentRightBottom = 0 0 ;
+						- m_pInheritsFrom = { IHandle 
+							- _m2Class = "";
+						}
+					}
+					- _defNumber = 1;
+					- Transitions = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IDefaultDrvdTrans 
+							- _id = GUID 4834354b-5629-4e0f-b85c-33e040366810;
+							- _myState = 2048;
+							- _name = "defaulttransition_0";
+							- _itsLabel = { ILabel 
+								- _id = GUID d66b9269-aae7-4779-b068-621c1c48bba3;
+								- _itsTrigger = NULL;
+								- _itsGuard = NULL;
+								- _itsAction = NULL;
+							}
+							- _itsTarget = GUID ea006980-05c4-4529-9e8a-7d016c9f5574;
+							- _staticReaction = 0;
+							- _itsSource = ;
+							- _ofState = GUID ab4c8de7-c90a-4b88-9b15-21322ca55ef3;
+						}
+						{ ITransition 
+							- _id = GUID b2f0ecbe-2ea7-43e4-a698-e273f9bd4f0a;
+							- _myState = 2048;
+							- _name = "transition_1";
+							- _itsLabel = { ILabel 
+								- _id = GUID fee8b3c5-2537-4b60-ab18-e6fa162ee181;
+								- _itsTrigger = { IInterfaceItemTrigger 
+									- _id = GUID d220c5f1-f57a-4129-8362-8d4bd0d532fc;
+									- _body = "evRun";
+									- _info = "";
+									- _itsInterfaceItem = { IHandle 
+										- _m2Class = "IEvent";
+										- _id = GUID 27f9fa60-67b3-48f2-89e3-89b131023fa5;
+									}
+								}
+								- _itsGuard = NULL;
+								- _itsAction = { IAction 
+									- _id = GUID c4f4a412-03b2-4a0e-98ca-4063ade31282;
+									- _body = "run(me);";
+								}
+							}
+							- _itsTarget = GUID ea006980-05c4-4529-9e8a-7d016c9f5574;
+							- _staticReaction = 0;
+							- _itsSource = GUID ea006980-05c4-4529-9e8a-7d016c9f5574;
+						}
+					}
+					- States = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IState 
+							- _id = GUID ab4c8de7-c90a-4b88-9b15-21322ca55ef3;
+							- _parent = ;
+							- _defaultTrans = GUID 4834354b-5629-4e0f-b85c-33e040366810;
+						}
+						{ IState 
+							- _id = GUID ea006980-05c4-4529-9e8a-7d016c9f5574;
+							- _myState = 2048;
+							- _name = "state_0";
+							- _parent = GUID ab4c8de7-c90a-4b88-9b15-21322ca55ef3;
+							- _defaultTrans = ;
+						}
+					}
+					- _version = 9.14.2009::10:57:17;
+					- _baseVersion = 1.2.1990::0:0:0;
+				}
+			}
+			- _itsStateChart = { IHandle 
+				- _m2Class = "IStateChart";
+				- _id = GUID cadbe8f6-01c4-4081-893d-f5725a82db6e;
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- Events = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IEvent 
+			- _id = GUID 27f9fa60-67b3-48f2-89e3-89b131023fa5;
+			- _name = "evRun";
+			- _virtual = 0;
+			- Args = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _superEvent = { IHandle 
+				- _m2Class = "";
+			}
+		}
+	}
+	- _configurationRelatedTime = 9.14.2009::8:56:38;
+}
+

@@ -1,0 +1,22 @@
+
+/var/tmp> ./runtime
+Task RiCOSTimer (PID: 39)
+retain/release with atomic : 1.070000 us
+retain with atomic : 0.444000 us
+
+nios-run: exiting.
+
+/var/tmp> ./data
+Task RiCOSTimer (PID: 47)
+CoreData <0x81eb5bc> :
+{
+        length = 36
+        bytes:
+        <41><68><6f><6a><20><6d><61><6d><69><41><68><6f><6a><20><6d><61>
+         ...
+        <6f><6a><20><6d><61><6d><69><41><68><6f><6a><20><6d><61><6d><69>
+}
+Append : 9.000000 us
+ appending 4 bytes 100000 times
+CoreImmutableData creation and destroy 1000 objects: time: 0.040000 (40.000000 us each)
+tst done

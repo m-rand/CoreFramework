@@ -1,0 +1,34 @@
+I-Logix-RPY-Archive version 8.0.9 * 820220
+
+- filesTable = { IRPYRawContainer 
+	- size = 27;
+	- value = "CoreFrameworkRhp.rpy" ""
+	"CoreFrameworkRhp_rpy\\CGCompatibilityPre71C.sbs" "CGCompatibilityPre71C"
+	"CoreFrameworkRhp_rpy\\CoreArrayTest.cmp" "CoreArrayTest"
+	"CoreFrameworkRhp_rpy\\CoreDataTest.cmp" "CoreDataTest"
+	"CoreFrameworkRhp_rpy\\CoreDictionaryTest.cmp" "CoreDictionaryTest"
+	"CoreFrameworkRhp_rpy\\CoreFramework.sbs" "CoreFramework"
+	"CoreFrameworkRhp_rpy\\CoreMessagePortTest.cmp" "CoreMessagePortTest"
+	"CoreFrameworkRhp_rpy\\CoreRunLoopTest.cmp" "CoreRunLoopTest"
+	"CoreFrameworkRhp_rpy\\CoreRunLoopTest2.cmp" "CoreRunLoopTest2"
+	"CoreFrameworkRhp_rpy\\CoreRuntimeTest.cmp" "CoreRuntimeTest"
+	"CoreFrameworkRhp_rpy\\CoreTimerTest.cmp" "CoreTimerTest"
+	"CoreFrameworkRhp_rpy\\Default.sbs" "Default"
+	"CoreFrameworkRhp_rpy\\MessagePort.sbs" "Tests::MessagePort"
+	"CoreFrameworkRhp_rpy\\Model1.omd" "Model1"
+	"CoreFrameworkRhp_rpy\\NotificationsTest.cmp" "NotificationsTest"
+	"CoreFrameworkRhp_rpy\\NotificationsTest.sbs" "Tests::NotificationsTest"
+	"CoreFrameworkRhp_rpy\\RiCEventTests.sbs" "Tests::RiCEventTests"
+	"CoreFrameworkRhp_rpy\\RiCEventsTest.cmp" "RiCEventsTest"
+	"CoreFrameworkRhp_rpy\\RunLoopTests.sbs" "Tests::RunLoopTests"
+	"CoreFrameworkRhp_rpy\\Tests.sbs" "Tests"
+	"CoreFrameworkRhp_rpy\\TimerTest.sbs" "Tests::TimerTest"
+	"CoreFrameworkRhp_rpy\\core.cmp" "core"
+	"CoreFrameworkRhp_rpy\\coreFramework.cmp" "coreFramework"
+	"CoreFrameworkRhp_rpy\\objectmodeldiagram_1.omd" "Tests::RunLoopTests::objectmodeldiagram_1"
+	"CoreFrameworkRhp_rpy\\objectmodeldiagram_2.omd" "Tests::TimerTest::objectmodeldiagram_2"
+	"CoreFrameworkRhp_rpy\\objectmodeldiagram_3.omd" "Tests::NotificationsTest::objectmodeldiagram_3"
+	"Projects.rpl" ""
+	
+}
+

@@ -1,0 +1,101 @@
+************************ Notification Test ********************
+How many observers? 10
+How many posters? 3
+Timeout for observer nr. 1: 20
+Timeout for observer nr. 2: 30
+Timeout for observer nr. 3: 40
+Timeout for observer nr. 4: 50
+Timeout for observer nr. 5: 20
+Timeout for observer nr. 6: 30
+Timeout for observer nr. 7: 40
+Timeout for observer nr. 8: 50
+Timeout for observer nr. 9: 20
+Timeout for observer nr. 10: 30
+'AtOne' for poster nr. 1: 16
+Number of posted notifications: 1000000
+        notefication name = Notification001
+'AtOne' for poster nr. 2: 16
+Number of posted notifications: 1000000
+        notefication name = Notification002
+'AtOne' for poster nr. 3: 16
+Number of posted notifications: 1000000
+        notefication name = Notification003
+PID 2272: starting observing...
+PID 1952: starting observing...
+PID 3472: starting observing...
+PID 2420: starting posting...
+PID 460: starting observing...
+PID 2072: starting observing...
+PID 5468: starting observing...
+PID 4452: starting observing...
+PID 3952: starting observing...
+PID 5028: starting observing...
+PID 5528: starting posting...
+PID 1120: starting observing...
+PID 4476: starting posting...
+PID 2420: 1000000 notifications posted in 2.484000s. Timeout = 0ms. Netto 2.484000s.
+PID 2072: 2982760 notifications received in 0.248s. Timeout = 20ms
+PID 1120: 2982746 notifications received in 0.248s. Timeout = 20ms
+PID 2272: 2982593 notifications received in 0.248s. Timeout = 20ms
+PID 4476: 1000000 notifications posted in 2.484000s. Timeout = 0ms. Netto 2.484000s.
+PID 3952: 2984100 notifications received in 0.248s. Timeout = 30ms
+PID 1952: 2981642 notifications received in 0.248s. Timeout = 40ms
+PID 5468: 2984233 notifications received in 0.248s. Timeout = 30ms
+PID 3472: 2983872 notifications received in 0.248s. Timeout = 40ms
+PID 460: 2984120 notifications received in 0.248s. Timeout = 30ms
+PID 4452: 2993722 notifications received in 0.248s. Timeout = 50ms
+PID 5028: 2993721 notifications received in 0.248s. Timeout = 50ms
+PID 5528: 1000000 notifications posted in 2.500000s. Timeout = 0ms. Netto 2.500000s.
+
+
+
+With __core_bulk_iterate_dict:
+
+************************ Notification Test ********************
+How many observers? 10
+How many posters? 3
+Timeout for observer nr. 1: 20
+Timeout for observer nr. 2: 30
+Timeout for observer nr. 3: 40
+Timeout for observer nr. 4: 50
+Timeout for observer nr. 5: 20
+Timeout for observer nr. 6: 30
+Timeout for observer nr. 7: 40
+Timeout for observer nr. 8: 50
+Timeout for observer nr. 9: 20
+Timeout for observer nr. 10: 30
+'AtOne' for poster nr. 1: 16
+Number of posted notifications: 1000000
+        notefication name = Notification001
+'AtOne' for poster nr. 2: 16
+Number of posted notifications: 1000000
+        notefication name = Notification002
+'AtOne' for poster nr. 3: 16
+Number of posted notifications: 1000000
+        notefication name = Notification003
+PID 5424: starting observing...
+PID 4224: starting observing...
+PID 3220: starting observing...
+PID 5408: starting observing...
+PID 3236: starting observing...
+PID 5080: starting observing...
+PID 4368: starting observing...
+PID 4192: starting observing...
+PID 4084: starting observing...
+PID 4256: starting observing...
+PID 4444: starting posting...
+PID 6072: starting posting...
+PID 4436: starting posting...
+PID 6072: 1000000 notifications posted in 2.360000s. Timeout = 0ms. Netto 2.360000s.
+PID 4436: 1000000 notifications posted in 2.360000s. Timeout = 0ms. Netto 2.360000s.
+PID 4368: 2963366 notifications received in 0.235s. Timeout = 40ms
+PID 4192: 2964819 notifications received in 0.237s. Timeout = 20ms
+PID 4224: 2972707 notifications received in 0.237s. Timeout = 20ms
+PID 5424: 2978297 notifications received in 0.237s. Timeout = 30ms
+PID 4256: 2978403 notifications received in 0.237s. Timeout = 30ms
+PID 3236: 2978595 notifications received in 0.237s. Timeout = 20ms
+PID 5080: 2978632 notifications received in 0.237s. Timeout = 30ms
+PID 3220: 2984561 notifications received in 0.237s. Timeout = 40ms
+PID 4444: 1000000 notifications posted in 2.391000s. Timeout = 0ms. Netto 2.391000s.
+PID 4084: 2999534 notifications received in 0.240s. Timeout = 50ms
+PID 5408: 2999408 notifications received in 0.240s. Timeout = 50ms
